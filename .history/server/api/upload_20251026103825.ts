@@ -11,6 +11,7 @@ import { firebaseConfig } from "../firebase/firebase-config";
 //   any
 // > = require("../firebase/firebase-config");
 
+// Initialize Firebase only once
 if (!getApps().length) {
   initializeApp({
     credential: cert(firebaseConfig),
