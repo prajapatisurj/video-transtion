@@ -1,0 +1,15 @@
+export const firebaseConfig = {
+  apiKey: "AIzaSyDOXGFm5zv_4ZguryKNl8QL2XszhDNZTY4",
+
+  authDomain: "video-transcription-a640e.firebaseapp.com",
+
+  projectId: "video-transcription-a640e",
+
+  storageBucket: "video-transcription-a640e.firebasestorage.app",
+
+  messagingSenderId: "559409248739",
+
+  appId: "1:559409248739:web:469a61b9a1077a8eff08d6",
+
+  measurementId: "G-B9HFDT5894",
+};

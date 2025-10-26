@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec tsx server/api/index.ts",
+    "start": "node dist/api/index.js",
+    "build": "tsc",
+    "test:speech": "tsx test-speech.ts"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^7.2.0",
+    "firebase-admin": "^12.5.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@vercel/node": "^3.2.7",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.19.1",
+    "typescript": "^5.9.3"
+  }
+}

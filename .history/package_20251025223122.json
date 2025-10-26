@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@google-cloud/speech": "^7.2.1",
+    "firebase-admin": "^12.7.0",
+    "react-dropzone": "^14.3.8"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "test:speech": "tsx test-speech.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  }
+}
