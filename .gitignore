@@ -1,0 +1,10 @@
+.firebase-config.ts
+.firebase/
+.firebase-debug.log
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.production
+.env.test
